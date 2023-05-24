@@ -1,0 +1,34 @@
+@import url("normalize.css");
+
+/* HEADER */
+.header {
+    background-color: #bbbbbb;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    align-self: center;
+}
+
+.nav-list {
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    column-gap: 15px;
+}
+
+.nav-list__item a {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-list__item a:hover {
+    text-decoration: underline;
+    color: azure;
+}
+
+/* FOOTER */
+
