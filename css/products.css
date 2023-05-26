@@ -1,0 +1,50 @@
+.haircuts {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: flex-start;
+}
+
+.haircut {
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.haircut:hover {
+    border-color: goldenrod;
+    transform: scale(1.05);
+}
+
+.haircut:active {
+    border-color: #088c19;
+}
+
+.haircut__title {
+    font-size: 25px;
+}
+
+.haircut:hover .haircut__title {
+    font-size: 30px;
+}
+
+.haircut__description {
+    max-width: 80%;
+    margin: auto;
+}
+
+.haircut__price {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.haircut__price::before {
+    content: "$";
+    margin-right: 5px;
+}
