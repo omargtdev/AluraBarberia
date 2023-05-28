@@ -49,3 +49,14 @@ footer {
 .footer-copy {
     margin-bottom: 0;
 }
+
+/******** RESPONSIVE ************/
+
+@media screen and (max-width: 660px){
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
